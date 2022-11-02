@@ -93,8 +93,7 @@
   /* TASK4*/
 
   .icon-head {
-width: 18px;
-color:var(--second-brand-text);
+color:#757575;
 fill: currentColor;
 margin-right: 8px;
 margin-left: 30px;
