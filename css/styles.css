@@ -123,16 +123,20 @@ margin-left: 30px;
  
 
    /* dark-board*/
+ 
+   /* TASK4*/
    
 .container-dark {
   width: 100%;
   margin: 0 auto;
   height: 600px;
-  background:var(--found-brand);
+  background: var(--found-brand); 
+  background-image: url(/images/big4background.svg);
   display: flex;
   justify-content: center;
   align-items: center;
  }   
+   /* TASK4*/
  
    .container-dark .center {
   display: inline-block;
