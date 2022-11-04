@@ -182,13 +182,10 @@ position: relative;
 
    .container-paragraphs {
     
-    height: 128px;
     margin:0 auto;
     margin-top: 85px;
-    background-color:var(--general-color);
-   }
-
-  
+    background-color:#2196F3;
+  }
 
      .paragraphs {
      font-size: 14px;
@@ -200,9 +197,19 @@ position: relative;
      padding-right: 0%;
      margin-right: 0px;
      }
+
+     .icon-paragraphs {
+      background-color: blueviolet;
+      color:#757575;
+      fill: currentColor;
+      height: 70px;
+      padding-top: 34px;
+      
+        }
        .paragraphs .paragraphs-one {
        margin-right: 30px;
        }
+
        .paragraphs .paragraphs-two {
        margin-right: 30px;
        }
