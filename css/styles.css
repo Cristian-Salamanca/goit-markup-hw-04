@@ -93,10 +93,13 @@
   /* TASK4*/
 
   .icon-head {
-color:#757575;
-fill: currentColor;
-margin-right: 8px;
-margin-left: 30px;
+
+    color:#757575;
+    fill: currentColor;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    margin-left: 28px;
   }
 
   .icon-head:hover {
