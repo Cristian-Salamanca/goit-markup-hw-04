@@ -364,6 +364,7 @@ border-radius: 4px;
    }   
 
      .container-general {
+      display: flex;
      width: 1200px;
      margin: 0 auto;
      padding-top: 60px;
@@ -399,6 +400,38 @@ border-radius: 4px;
          color:var(--brand-color);
          }
 
+         .social-media-desktop {
+          margin-left: 80px;
+         }
+     
+         .social-media-desktop .text {
+          margin-top: 14px;
+          color: #FFFFFF;
+          font-size: 1.14; 
+          font-weight: 700;
+         }
+   
+/*TASK4*/
+  .icon-footer {
+    background-color:  rgba(255, 255, 255, 0.1);
+      fill: #FFFFFF;
+      width: 44px;
+      height: 44px;
+      font-size: 25px;
+      line-height: 45px;
+      border-radius: 50%;
+      text-align: center;
+    margin-right: 10px;
+        }
+  
+
+  .icon-footer:hover{
+      background:var(--brand-color);
+      color:#FFFFFF;
+     }
+  
+/*TASK4*/
+  
 
 
 /*PORTFOLIO-PAGE*/
