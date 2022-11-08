@@ -16,38 +16,45 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/c4f9b10075.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
     <header>
       <div class="line">
-        <div class="container header-portafolio general-link-two">
-          <div class="header-portafolio-ones">
+        <div class="container header-container general-link">
+          <div class="header-container-one">
             <a class="first-text" href="/">WebStudio</a>
+            <nav>
+              <ul class="header-container-two">
+                <li><a class="second-text" href="index.html">Estudio</a></li>
+                <li>
+                  <a class="second-text" href="portfolio.html">Portafolio</a>
+                </li>
+                <li><a class="second-text" href="/Contactos">Contactos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-container-three">
+            <!-- TASK4 -->
+            <svg class="icon-head">
+              <use
+                href="./images/symbol-defs.svg#icon-mail-envelope-closed"
+              ></use>
+            </svg>
 
-            <div>
-              <nav>
-                <a class="second-text" href="index.html">Estudio</a>
-                <a class="second-text" href="/Portafolio">Portafolio</a>
-                <a class="second-text" href="/Contactos">Contactos</a>
-              </nav>
-            </div>
+            <!-- TASK4 -->
+            <a class="third-text" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
 
-            <div class="header-portafolio-two">
-          <!-- TASK4 -->
-          
-          <!-- TASK4 -->
-              <a class="third-text" href="mailto:info@exmaple.com"
-                >info@example.com</a
-              >
-              <a class="third-text" href="tel:+525555296000"
-                >+52 (555) 529-06-00</a
-              >
-            </div>
+            <!-- TASK4 -->
+            <svg class="icon-head" viewBox="0 0 30 26">
+              <use href="./images/symbol-defs.svg#icon-mobile2"></use>
+            </svg>
+            <!-- TASK4 -->
+            <a class="third-text" href="tel:+525555296000"
+              >+52 (555) 529-06-00</a
+            >
           </div>
         </div>
       </div>
@@ -71,7 +78,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/Tecnoduck.jpg"
+                src="images/tecnoduck.svg"
                 alt="laptop-Tecnoduck"
                 width="370"
               />
@@ -85,7 +92,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/basketball2players.jpg"
+                src="images/basquetball.svg"
                 alt="basketball-players"
                 width="370"
               />
@@ -101,7 +108,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/seafood4restaurant.jpg"
+                src="images/seanfod4restaurant.svg"
                 alt="branding-seafood-restaurant"
                 width="370"
               />
@@ -114,7 +121,7 @@
 
           <div class="briefcase-card">
             <a href="">
-              <img src="images/headphones.jpg" alt="headphones" width="370" />
+              <img src="images/headphone.svg" alt="headphones" width="370" />
             </a>
             <div class="text">
               <p class="second-text">Proyecto Prime</p>
@@ -124,7 +131,7 @@
 
           <div class="briefcase-card">
             <a href="">
-              <img src="images/box4proyect.jpg" alt="boxes" width="370" />
+              <img src="images/boxes.svg" alt="boxes" width="370" />
             </a>
             <div class="text">
               <p class="second-text">Proyecto Cajas</p>
@@ -135,7 +142,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/inspiration.jpg"
+                src="images/laptop4inspiration.svg"
                 alt="black-laptop"
                 width="370"
               />
@@ -149,7 +156,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/limited4edition.jpg"
+                src="images/book.svg"
                 alt="limited-edition-poster"
                 width="370"
               />
@@ -163,7 +170,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/proyect4lab.jpg"
+                src="images/proyect4lab.svg"
                 alt="proyectoLAB-target"
                 width="370"
               />
@@ -177,7 +184,7 @@
           <div class="briefcase-card">
             <a href="">
               <img
-                src="images/growing4bussines.jpg"
+                src="images/laptop4bussines.svg"
                 alt="writting-on-laptop"
                 width="370"
               />
@@ -212,13 +219,21 @@
             </address>
           </div>
 
-          <div class="social-media">
+          <div class="social-media-desktop">
             <p class="text">ENCUENTRENOS EN</p>
-            <div class="buttons">
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-twitter twitter"></a>
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-linkedin"></a>
+            <div>
+              <svg class="icon-footer" viewBox="0 0 30 56">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+              <svg class="icon-footer" viewBox="0 0 30 56">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+              <svg class="icon-footer" viewBox="2 0 30 86">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+              <svg class="icon-footer" viewBox="-1 2 30 66">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
             </div>
           </div>
         </div>
