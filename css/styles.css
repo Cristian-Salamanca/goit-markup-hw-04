@@ -84,6 +84,9 @@
            .general-link .second-text:hover {
            color:var(--brand-color);
            }
+           .general-link .second-text:focus {
+            color:var(--brand-color);
+           }
 
      .header-container-three {
      display: flex;
@@ -103,6 +106,10 @@
        color:var(--brand-color);
        fill: currentColor;
        }
+       .icon-head:focus {
+        color:var(--brand-color);
+        fill: currentColor;
+       }
 
      .header-container-three .third-text {
        color:var(--second-brand-text);
@@ -114,6 +121,9 @@
        margin-left: 0px;      
       }
          .header-container-three .third-text:hover {
+          color:var(--brand-color);
+         }
+         .header-container-three .third-text:focus {
           color:var(--brand-color);
          }
  
@@ -316,39 +326,52 @@
 
    /* customers*/
 
- .customers {
-  height: 162px; 
-  margin-top: 59px;
-  margin-bottom: 140px;
+   .customers {
+    height: 162px;
+    margin-top: 59px;
+    margin-bottom: 140px;
   }
-   .titles-customer {
+  
+  .titles-customer {
     font-size: 36px;
-    color:#212121;
+    color: #212121;
     line-height: 1.17;
     font-weight: 700;
-    text-align: center; 
-    }
-   .icon-customer{
-    color:#757575;
+    text-align: center;
+  }
+  
+  
+  
+  .icon-customer,
+  .icon-customer-last {
+    color: #AFB1B8;
     fill: currentColor;
     width: 172px;
     height: 81px;
     margin-left: 0px;
     margin-right: 30px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid currentColor;
     border-radius: 4px;
-    }
-   .icon-customer-last {
-    color:#757575;
-    fill: currentColor;
+    cursor: pointer;
+  }
+  
+  .icon-customer-last {
     width: 170px;
-    height: 81px;
-    margin-left: 0px;
     margin-right: 0px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    }
+  }
+  
+  .icon-customer:hover,
+  .icon-customer:active,
+  .icon-customer-last:hover,
+  .icon-customer-last:active {
+    color: var(--brand-color);
+  }
+   /*CORRECTIONS*/
+   /*CORRECTIONS*/
+
     
+    
+
    /*Footer*/
 
  .container-footer {
