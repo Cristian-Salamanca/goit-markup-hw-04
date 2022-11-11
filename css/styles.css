@@ -317,6 +317,8 @@
       border-radius: 50%;
       text-align: center;
       margin-right: 0px;
+      cursor: pointer;
+
       }
          .icon-team:hover{
          background:var(--brand-color);
@@ -391,21 +393,29 @@
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
+    font-family: var(--second-text);
+
+
    }
  .container-address {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.03em;
   }
     .container-address .second-text {
      margin-top: 9px;
      color: #FFFFFF;
      font-size: 1.14; 
+     font-family: var(--principal-text);
      }
     .container-address .third-text {
      margin-top: 2px;
      color:var(--second-brand-text);
      line-height: 1.14;
      font-weight: 500;
+     font-family: var(--principal-text);
      }
        .container-address .third-text:hover {
         color:var(--brand-color);
@@ -418,7 +428,12 @@
           color: #FFFFFF;
           font-size: 1.14; 
           font-weight: 700;
+          font-family: var(--principal-text);
+         letter-spacing: 0.03em;
          } 
+
+
+         
      .icon-footer {
       background-color:  rgba(255, 255, 255, 0.1);
       fill: #FFFFFF;
@@ -429,6 +444,8 @@
       border-radius: 50%;
       text-align: center;
       margin-right: 10px;
+      cursor: pointer;
+
       }
        .icon-footer:hover{
         background:var(--brand-color);
