@@ -94,22 +94,39 @@
      margin: 0px;
      }
 
-     .icon-head {
+     .icon-head-envelope {
      color:#757575;
      fill: currentColor;
      width: 26px;
      height: 26px;
-     margin-right: 8px;
+     margin-right: 9px;
      margin-left: 28px;
      }
-       .icon-head:hover {
+       .icon-head-envelope:hover {
        color:var(--brand-color);
        fill: currentColor;
        }
-       .icon-head:focus {
+       .icon-head-envelope:focus {
         color:var(--brand-color);
         fill: currentColor;
        }
+
+       .icon-head-phone {
+        color:#757575;
+        fill: currentColor;
+        width: 26px;
+        height: 26px;
+        margin-right: 4px;
+        margin-left: 28px;
+        }
+          .icon-head-phone:hover {
+          color:var(--brand-color);
+          fill: currentColor;
+          }
+          .icon-head-phone:focus {
+           color:var(--brand-color);
+           fill: currentColor;
+          }
 
      .header-container-three .third-text {
        color:var(--second-brand-text);
@@ -162,21 +179,28 @@
      text-align: center;
      }
      .button {
-     display: block;
+     display: flex;
+     align-items: center;
+     justify-content: center;
      margin:0 auto;
      background:var(--brand-color);
-     color: #FFFFFF;
      border: none;
+     width: 200px;
+     height: 50px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     padding-left: 2px;
+     padding-right: 0px;
+     color: #FFFFFF;
      font-size: 16px;
+     font-family: var(--principal-text);
+     font-style: normal;
      line-height: 1.88;
      font-weight: 700;
      cursor: pointer;
+     letter-spacing: 0.06em;
      } 
-       .button:hover {
-        background: #F5F4FA;
-       color: black;
-       border: none;
-       }
+
   
    /* Paragraphs*/
 
@@ -480,19 +504,25 @@
    padding-left: 24%;
    padding-right: 24%;
    }
-     .portafolio-buttons button {
+     .portafolio-buttons .buttons {
      background: #F5F4FA;
+     height: 38px;
      color: black;
      border: none;
      font-size: 16px;
+     font-family: var(--principal-text);
+     font-style: normal;
      line-height: 1.63;
      font-weight: 500;
+     letter-spacing: 0.03em;
      border-radius: 4px;
-     padding-left: 4%;
-     padding-right: 4% ;
+     padding-left: 3%;
+     padding-right: 3% ;
+     margin-right: 8px;
      cursor: pointer;
      }
-       .portafolio-buttons button:hover{
+
+       .portafolio-buttons .buttons:hover{
         background:var(--brand-color);
         color:#FFFFFF;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
